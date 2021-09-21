@@ -14,5 +14,5 @@ jobs:
         with:
           build: npm run build:ci
           start: npm run deploy:ci
-          wait-on: 'http://localhost:5000'
+          wait-on: 'http://localhost:3000'
           browser: chrome
