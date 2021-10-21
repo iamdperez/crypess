@@ -11,7 +11,7 @@ function Dashboard(props) {
   }
 
   return (
-    <div data-testid="dashboard-welcome">
+    <div >
       Welcome {user.name}!<br /><br />
       <input type="button" onClick={handleLogout} value="Logout" />
     </div>
